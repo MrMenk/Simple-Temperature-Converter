@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #2d3436;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 0.9rem;
+    color: #636e72;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #dfe6e9;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+    box-sizing: border-box;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+.arrow {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #b2bec3;
+}
+
+.result-area {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f1f2f6;
+    border-radius: 8px;
+}
+
+.result-area h4 {
+    margin: 0;
+    font-size: 0.8rem;
+    color: #747d8c;
+    text-transform: uppercase;
+}
+
+#resultDisplay {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2d3436;
+    margin-top: 5px;
+}

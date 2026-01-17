@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Temperature Converter</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+	<script src="script.js"></script>
+</head>
+
+<body>
+
+	<div class="container">
+		<h1>Temperature Converter</h1>
+
+		<div class="converter-box">
+			<div class="input-group">
+				<label>Degree</label>
+				<input type="number" id="degree" placeholder="Enter Value" oninput="convert()">
+			</div>
+
+			<div class="input-group">
+				<label>From</label>
+				<select id="fromScale" onchange="convert()">
+					<option value="Celsius">Celsius (°C)</option>
+					<option value="Fahrenheit">Fahrenheit (°F)</option>
+					<option value="Kelvin">Kelvin (K)</option>
+				</select>
+			</div>
+
+			<div class="arrow">⬇</div>
+
+			<div class="input-group">
+				<label>To</label>
+				<select id="toScale" onchange="convert()">
+					<option value="Celsius">Celsius (°C)</option>
+					<option value="Fahrenheit" selected>Fahrenheit (°F)</option>
+					<option value="Kelvin">Kelvin (K)</option>
+				</select>
+			</div>
+
+			<div class="result-area">
+				<h4>Result</h4>
+				<div id="resultDisplay">--</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="app.js"></script>
+</body>
+
+</html>
