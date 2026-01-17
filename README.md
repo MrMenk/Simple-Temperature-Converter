@@ -17,13 +17,6 @@ Built using **HTML, CSS, and JavaScript**, this project focuses on clean UI, use
 
 ---
 
-## 🖥️ Demo UI
-
-![Temperature Converter UI](./Screenshot%202026-01-17%20201644.png)
-
-> Simple, distraction-free interface designed for clarity and usability.
-
----
 
 ## 🛠️ Tech Stack
 
